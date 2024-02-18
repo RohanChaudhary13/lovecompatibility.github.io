@@ -1,0 +1,39 @@
+body, html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: pink;
+}
+
+.container {
+    text-align: center;
+}
+
+input, button {
+    margin: 10px;
+    padding: 10px;
+}
+
+h1{
+    font-family: 'Oswald', normal; /* Example of a web-safe font */
+    color: #f3300e; /
+
+}
+
+input, button {
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer; /* Changes the cursor to indicate it's clickable */
+}
+
+#resultImage {
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+    display: block; /* Override the inline style when showing the image */
+    margin: 0 auto; /* Center the image */
+}
+
+
+
